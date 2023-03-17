@@ -7,7 +7,7 @@ import "mlmbox/type/payment.proto";
 import "mlmbox/type/time_point.proto";
 import "mlmbox/type/limit.proto";
 
-option go_package = "github.com/mlmbox/go-genproto/mlmbox/type/farming;farming_pb";
+option go_package = "github.com/mlm-mixerdev/go-genproto/mlmbox/type/farming;farming_pb";
 
 message Farming {
   message Package {

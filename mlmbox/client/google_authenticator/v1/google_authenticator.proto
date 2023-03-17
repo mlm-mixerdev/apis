@@ -6,7 +6,7 @@ import "mlmbox/type/confirmation.proto";
 import "mlmbox/type/google_authenticator.proto";
 import "google/protobuf/empty.proto";
 
-option go_package = "github.com/mlmbox/go-genproto/mlmbox/client/google_authenticator/v1;service_client_google_authenticator_pb";
+option go_package = "github.com/mlm-mixerdev/go-genproto/mlmbox/client/google_authenticator/v1;service_client_google_authenticator_pb";
 
 service GoogleAuthenticator {
   rpc Info (google.protobuf.Empty) returns (mlmbox.type.GoogleAuthenticator) {} // view 2FA

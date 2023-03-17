@@ -5,7 +5,7 @@ package mlmbox.client.auth.v1;
 import "mlmbox/type/confirmation.proto";
 import "google/protobuf/empty.proto";
 
-option go_package = "github.com/mlmbox/go-genproto/mlmbox/client/auth/v1;service_client_auth_pb";
+option go_package = "github.com/mlm-mixerdev/go-genproto/mlmbox/client/auth/v1;service_client_auth_pb";
 
 service Auth {
   rpc SignIn (SignInRequest) returns (AuthResponse) {} // authorization

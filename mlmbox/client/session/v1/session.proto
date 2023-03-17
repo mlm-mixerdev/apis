@@ -6,7 +6,7 @@ import "mlmbox/type/session.proto";
 import "mlmbox/type/time_point.proto";
 import "google/protobuf/empty.proto";
 
-option go_package = "github.com/mlmbox/go-genproto/mlmbox/client/session/v1;service_client_session_pb";
+option go_package = "github.com/mlm-mixerdev/go-genproto/mlmbox/client/session/v1;service_client_session_pb";
 
 service Session {
   rpc StateGet (google.protobuf.Empty) returns (SessionStateGetResponse) {} // State of all account sessions

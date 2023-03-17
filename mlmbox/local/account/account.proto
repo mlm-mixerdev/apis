@@ -4,7 +4,7 @@ package mlmbox.local.account;
 import "mlmbox/local/type/account.proto";
 import "mlmbox/type/account.proto";
 
-option go_package = "github.com/mlmbox/go-genproto/mlmbox/local/account;service_local_account_pb";
+option go_package = "github.com/mlm-mixerdev/go-genproto/mlmbox/local/account;service_local_account_pb";
 
 service Account {
   rpc LoginToID(mlmbox.local.type.Account.Login) returns (AccountLoginToIDResponse) {}

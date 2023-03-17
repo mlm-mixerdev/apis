@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package mlmbox.type;
 
-option go_package = "github.com/mlmbox/go-genproto/mlmbox/type/time_point;time_point_pb";
+option go_package = "github.com/mlm-mixerdev/go-genproto/mlmbox/type/time_point;time_point_pb";
 
 message TimePoint {
   bool infinity = 1; // no limit

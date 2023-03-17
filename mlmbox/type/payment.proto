@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package mlmbox.type;
 
-option go_package = "github.com/mlmbox/go-genproto/mlmbox/type/payment;payment_pb";
+option go_package = "github.com/mlm-mixerdev/go-genproto/mlmbox/type/payment;payment_pb";
 
 message PaymentPrice {
   uint32 asset_id = 1;

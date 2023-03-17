@@ -5,7 +5,7 @@ import "mlmbox/local/type/asset.proto";
 import "mlmbox/type/asset.proto";
 import "google/protobuf/empty.proto";
 
-option go_package = "github.com/mlmbox/go-genproto/mlmbox/local/asset;service_local_asset_pb";
+option go_package = "github.com/mlm-mixerdev/go-genproto/mlmbox/local/asset;service_local_asset_pb";
 
 service Asset {
   rpc GetByID(mlmbox.local.type.Asset.ID) returns (AssetResponse) {}

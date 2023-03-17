@@ -3,7 +3,7 @@ syntax = "proto3";
 package mlmbox.type;
 //import "mlmbox/type/time_point.proto";
 
-option go_package = "github.com/mlmbox/go-genproto/mlmbox/type/bonus;bonus_pb";
+option go_package = "github.com/mlm-mixerdev/go-genproto/mlmbox/type/bonus;bonus_pb";
 
 message Bonus {
   enum Kind {

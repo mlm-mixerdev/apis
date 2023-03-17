@@ -5,7 +5,7 @@ package mlmbox.type;
 import "mlmbox/type/bonus.proto";
 import "mlmbox/type/time_point.proto";
 
-option go_package = "github.com/mlmbox/go-genproto/mlmbox/type/wallet;wallet_pb";
+option go_package = "github.com/mlm-mixerdev/go-genproto/mlmbox/type/wallet;wallet_pb";
 
 message Wallet {
   message Asset {

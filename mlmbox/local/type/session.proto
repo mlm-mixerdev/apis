@@ -4,7 +4,7 @@ package mlmbox.local.type;
 
 import "mlmbox/type/session.proto";
 
-option go_package = "github.com/mlmbox/go-genproto/mlmbox/local/type/session;local_session_pb";
+option go_package = "github.com/mlm-mixerdev/go-genproto/mlmbox/local/type/session;local_session_pb";
 
 message Session {
   message ID {

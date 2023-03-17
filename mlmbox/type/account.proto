@@ -6,7 +6,7 @@ import "mlmbox/type/farming.proto";
 import "mlmbox/type/google_authenticator.proto";
 import "mlmbox/type/relationship.proto";
 
-option go_package = "github.com/mlmbox/go-genproto/mlmbox/type/account;account_pb";
+option go_package = "github.com/mlm-mixerdev/go-genproto/mlmbox/type/account;account_pb";
 
 message Account {
   message ID {

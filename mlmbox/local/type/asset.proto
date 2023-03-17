@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package mlmbox.local.type;
 
-option go_package = "github.com/mlmbox/go-genproto/mlmbox/local/type/asset;local_asset_pb";
+option go_package = "github.com/mlm-mixerdev/go-genproto/mlmbox/local/type/asset;local_asset_pb";
 
 message Asset {
   message ID {

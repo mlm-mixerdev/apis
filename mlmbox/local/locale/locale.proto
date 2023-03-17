@@ -5,7 +5,7 @@ package mlmbox.local.locale;
 import "mlmbox/type/locale.proto";
 import "google/protobuf/empty.proto";
 
-option go_package = "github.com/mlmbox/go-genproto/mlmbox/local/locale;service_local_locale_pb";
+option go_package = "github.com/mlm-mixerdev/go-genproto/mlmbox/local/locale;service_local_locale_pb";
 
 service Locale {
   rpc Get (mlmbox.type.Locale.ID) returns (LocaleResponse) {}

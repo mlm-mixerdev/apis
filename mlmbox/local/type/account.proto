@@ -1,7 +1,7 @@
 syntax = "proto3";
 
 package mlmbox.local.type;
-option go_package = "github.com/mlmbox/go-genproto/mlmbox/local/type/account;local_account_pb";
+option go_package = "github.com/mlm-mixerdev/go-genproto/mlmbox/local/type/account;local_account_pb";
 
 message Account {
   message ID {

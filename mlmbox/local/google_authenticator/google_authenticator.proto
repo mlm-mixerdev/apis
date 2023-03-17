@@ -6,7 +6,7 @@ import "mlmbox/local/type/account.proto";
 import "mlmbox/local/type/google_authenticator.proto";
 import "mlmbox/type/google_authenticator.proto";
 
-option go_package = "github.com/mlmbox/go-genproto/mlmbox/local/google_authenticator;service_local_google_authenticator_pb";
+option go_package = "github.com/mlm-mixerdev/go-genproto/mlmbox/local/google_authenticator;service_local_google_authenticator_pb";
 
 service GoogleAuthenticator {
   rpc Get (mlmbox.local.type.Account.ID) returns (Response) {}

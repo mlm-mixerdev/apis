@@ -6,7 +6,7 @@ import "mlmbox/type/session.proto";
 import "mlmbox/local/type/account.proto";
 import "mlmbox/local/type/session.proto";
 
-option go_package = "github.com/mlmbox/go-genproto/mlmbox/local/session;service_local_session_pb";
+option go_package = "github.com/mlm-mixerdev/go-genproto/mlmbox/local/session;service_local_session_pb";
 
 service Session {
   rpc Get (Request) returns (Response) {}

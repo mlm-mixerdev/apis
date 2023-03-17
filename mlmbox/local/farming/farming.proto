@@ -5,7 +5,7 @@ package mlmbox.local.farming;
 import "mlmbox/local/type/account.proto";
 import "mlmbox/type/farming.proto";
 
-option go_package = "github.com/mlmbox/go-genproto/mlmbox/local/farming;service_local_farming_pb";
+option go_package = "github.com/mlm-mixerdev/go-genproto/mlmbox/local/farming;service_local_farming_pb";
 
 service Farming {
   rpc PackageGet (PackageRequest) returns (PackageResponse) {}

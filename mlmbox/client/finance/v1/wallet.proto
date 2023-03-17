@@ -7,7 +7,7 @@ import "mlmbox/type/sort.proto";
 import "mlmbox/type/wallet.proto";
 import "google/protobuf/empty.proto";
 
-option go_package = "github.com/mlmbox/go-genproto/mlmbox/client/finance/v1;service_client_finance_pb";
+option go_package = "github.com/mlm-mixerdev/go-genproto/mlmbox/client/finance/v1;service_client_finance_pb";
 
 service Wallet {
   rpc Info (google.protobuf.Empty) returns (mlmbox.type.Wallet) {}

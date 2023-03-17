@@ -6,7 +6,7 @@ import "mlmbox/type/account.proto";
 import "mlmbox/type/limit.proto";
 import "mlmbox/type/sort.proto";
 
-option go_package = "github.com/mlmbox/go-genproto/mlmbox/client/network/v1;service_client_network_pb";
+option go_package = "github.com/mlm-mixerdev/go-genproto/mlmbox/client/network/v1;service_client_network_pb";
 
 service Network {
   rpc PartnerGet (mlmbox.type.Account.ID) returns (mlmbox.type.Account.ShortInfo) {}

@@ -5,7 +5,7 @@ package mlmbox.client.confirmation.v1;
 import "mlmbox/type/confirmation.proto";
 import "google/protobuf/empty.proto";
 
-option go_package = "github.com/mlmbox/go-genproto/mlmbox/client/confirmation/v1;service_client_confirmation_pb";
+option go_package = "github.com/mlm-mixerdev/go-genproto/mlmbox/client/confirmation/v1;service_client_confirmation_pb";
 
 service Confirmation {
   rpc Get (mlmbox.type.Confirmation.ID) returns (mlmbox.type.Confirmation) {} // display the data of the selected confirmation form

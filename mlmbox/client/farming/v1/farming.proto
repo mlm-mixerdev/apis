@@ -5,7 +5,7 @@ package mlmbox.client.farming.v1;
 import "mlmbox/type/farming.proto";
 import "google/protobuf/empty.proto";
 
-option go_package = "github.com/mlmbox/go-genproto/mlmbox/client/farming/v1;service_client_farming_pb";
+option go_package = "github.com/mlm-mixerdev/go-genproto/mlmbox/client/farming/v1;service_client_farming_pb";
 
 service Farming {
   rpc PackageGet (mlmbox.type.Farming.Package.ID) returns (mlmbox.type.Farming.Package) {}
