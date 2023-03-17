@@ -5,7 +5,7 @@ npm install -g grpc-tools
 ```
 
 ```bash
-export MLMBOX_API_PATH="$HOME/go/src/github.com/mlmbox/apis"
+export MLMBOX_API_PATH="$HOME/go/src/github.com/mlm-mixerdev/apis"
 
 protoc -I=$MLMBOX_API_PATH --js_out=import_style=commonjs,binary:. --grpc-web_out=import_style=typescript,mode=grpcwebtext:. mlmbox/type/account.proto
 protoc -I=$MLMBOX_API_PATH --js_out=import_style=commonjs,binary:. --grpc-web_out=import_style=typescript,mode=grpcwebtext:. mlmbox/type/agent.proto

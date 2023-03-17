@@ -1,8 +1,7 @@
 # go-genproto
 
 ```bash
-export MLMBOX_API_PATH="$HOME/go/src/github.com/mlmbox/apis"
-
+export MLMBOX_API_PATH="$HOME/go/src/github.com/mlm-mixerdev/apis"
 
 protoc -I=$MLMBOX_API_PATH --dart_out=grpc:lib/src/generated mlmbox/type/account.proto
 protoc -I=$MLMBOX_API_PATH --dart_out=grpc:lib/src/generated mlmbox/type/agent.proto
