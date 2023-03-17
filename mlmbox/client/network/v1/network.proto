@@ -1,0 +1,35 @@
+syntax = "proto3";
+
+package mlmbox.client.network.v1;
+
+import "mlmbox/type/account.proto";
+import "mlmbox/type/limit.proto";
+import "mlmbox/type/sort.proto";
+
+option go_package = "github.com/mlmbox/go-genproto/mlmbox/client/network/v1;service_client_network_pb";
+
+service Network {
+  rpc PartnerGet (mlmbox.type.Account.ID) returns (mlmbox.type.Account.ShortInfo) {}
+  rpc PartnerSearch (AccountsSearchRequest) returns (stream mlmbox.type.Account.ShortInfo) {}
+  rpc TeamInfo (TeamRequest) returns (TeamResponse) {}
+  rpc TeamSearch (AccountsSearchRequest) returns (stream mlmbox.type.Account.ShortInfo) {}
+  rpc TeamPartnerList (TeamPartnerListRequest) returns (stream mlmbox.type.Account.FullInfo) {}
+}
+
+message AccountsSearchRequest {
+  string login_prefix = 1;
+  mlmbox.type.Limit limit = 2;
+}
+message TeamRequest {
+  mlmbox.type.Account.ID view_partner = 1;
+  mlmbox.type.Sort partners_sort = 2;
+}
+message TeamResponse {
+  mlmbox.type.Account.FullInfo account = 1;
+  repeated mlmbox.type.Account.FullInfo partners = 2;
+}
+message TeamPartnerListRequest {
+  mlmbox.type.Account.ID view_partner = 1;
+  uint32 step_referral_line = 2;
+  mlmbox.type.Sort partners_sort = 3;
+}
